@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Site Register</h1>
+        <h1 class="title">Site Login</h1>
 
         <hr class="border">
 
@@ -26,17 +26,14 @@
                 <i class="icon left fa fa-user"></i><input type="text" name="user" class="user" placeholder="User">
             </div>
             <div class="form-group">
-                <i class="icon left fa fa-lock"></i><input type="password" name="password" class="password" placeholder="Password">
-            </div>
-            <div class="form-group">
-                <i class="icon left fa fa-lock"></i><input type="password" name="password2" class="password_btn" placeholder="Confirm Password">
+                <i class="icon left fa fa-lock"></i><input type="password" name="password" class="password_btn" placeholder="Password">
                 <i class="submit-btn fa fa-arrow-right" onclick="login.submit()"></i>
             </div>
         </form>
 
         <p class="text-register">
-            Do you have an account?
-            <a href="login.php">LogIn</a> 
+            You don't have an account?
+            <a href="register.php">Sign In</a> 
         </p>
     </div>
 
