@@ -32,6 +32,15 @@
                 <i class="icon left fa fa-lock"></i><input type="password" name="password2" class="password_btn" placeholder="Confirm Password">
                 <i class="submit-btn fa fa-arrow-right" onclick="login.submit()"></i>
             </div>
+
+            <?php if( !empty($errors) ): ?>
+                <div class="error">
+                    <ul>
+                        <?php echo $errors?>
+                    </ul>
+                </div>
+            <?php endif?>
+
         </form>
 
         <p class="text-register">
