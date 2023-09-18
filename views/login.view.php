@@ -29,6 +29,14 @@
                 <i class="icon left fa fa-lock"></i><input type="password" name="password" class="password_btn" placeholder="Password">
                 <i class="submit-btn fa fa-arrow-right" onclick="login.submit()"></i>
             </div>
+
+            <?php if( !empty($errors) ): ?>
+                <div class="error">
+                    <ul>
+                        <?php echo $errors?>
+                    </ul>
+                </div>
+            <?php endif?>
         </form>
 
         <p class="text-register">
